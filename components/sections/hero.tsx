@@ -17,7 +17,6 @@ import ImageEight from '@/assets/ImageEight.png'
 //   "https://images.unsplash.com/photo-1596939122461-e48c8a8a2d85",
 //   "https://images.unsplash.com/photo-1596939122461-e48c8a8a2d85",
 // ];
-https://github.com/DevTiyah/Trado-Fahion-Site.git
 export function Hero() {
   return (
     <section
