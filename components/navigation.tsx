@@ -5,7 +5,7 @@ import { cn } from "@/lib/utils";
 import { Button } from "@/components/ui/button";
 import { Scissors } from "lucide-react";
 import Link from "next/link";
-import TradoLogo from '@/assets/tradologo.png'
+import TradoLogo from '@/assets/TradoLogo.png'
 import Image from "next/image";
 
 
