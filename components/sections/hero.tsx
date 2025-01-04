@@ -9,14 +9,6 @@ import ImageSix from '@/assets/ImageSix.png'
 import ImageEight from '@/assets/ImageEight.png'
 
 
-// const images = [
-//   "https://images.unsplash.com/photo-1549045337-967927d923c0",
-//   "https://images.unsplash.com/photo-1594938298603-c8148c4dae35",
-//   "https://images.unsplash.com/photo-1621787279751-901e7b831d7f",
-//   "https://images.unsplash.com/photo-1613945409199-1b5527d31fe8",
-//   "https://images.unsplash.com/photo-1596939122461-e48c8a8a2d85",
-//   "https://images.unsplash.com/photo-1596939122461-e48c8a8a2d85",
-// ];
 export function Hero() {
   return (
     <section
