@@ -14,10 +14,6 @@ export function Hero() {
     <section
       id="home"
       className="min-h-screen relative flex items-center pt-16 overflow-hidden bg-stone-100"
-      // style={{
-      //   background:
-      //     "linear-gradient(135deg, hsl(43 74% 66% / 0.1) 0%, hsl(27 87% 67% / 0.1) 100%)",
-      // }}
     >
       <div className="absolute inset-0 pattern-dots pattern-black pattern-bg-white pattern-size-4 pattern-opacity-5 " />
       
@@ -44,38 +40,7 @@ export function Hero() {
           </div>
         </motion.div>
 
-        {/* <div className="hidden lg:grid grid-cols-2 gap-6">
-          {[0, 1].map((col) => (
-            <motion.div
-              key={col}
-              initial={{ opacity: 0, y: col === 0 ? -20 : 20 }}
-              animate={{ opacity: 1, y: 0 }}
-              transition={{ duration: 0.8, delay: 0.2 }}
-              className="space-y-6"
-            >
-              {images.slice(col * 3, (col + 1) * 3).map((src, idx) => (
-                <motion.div
-                  key={idx}
-                  animate={{
-                    y: [0, col === 0 ? -200 : 200, 0],
-                  }}
-                  transition={{
-                    duration: 20,
-                    repeat: Infinity,
-                    ease: "linear",
-                  }}
-                  className="relative h-64 rounded-lg overflow-hidden"
-                >
-                  <img
-                    src={src}
-                    alt={`Fashion ${idx + 1}`}
-                    className="w-full h-full object-cover"
-                  />
-                </motion.div>
-              ))}
-            </motion.div>
-          ))}
-        </div> */}
+    
         
         <div className="relative grid grid-cols-3 gap-4">
           {/* Top Row */}
